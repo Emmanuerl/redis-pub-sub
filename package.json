@@ -7,5 +7,10 @@
   "license": "MIT",
   "dependencies": {
     "redis": "^3.1.2"
+  },
+  "scripts":{
+    "init-publisher":"node ./publisher.js",
+    "init-subscriber":"node ./subscriber.js",
+    "start":"yarn init-publisher && yarn init-subscriber"
   }
 }
