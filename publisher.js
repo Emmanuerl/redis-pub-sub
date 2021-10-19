@@ -13,9 +13,7 @@ const newUser = {
     email: "user@email.com"
 };
 
-// setInterval(() => {
 client.publish(topic, JSON.stringify(newUser));
 
-// }, 5000);
 
 
