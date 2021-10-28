@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY package.json ./
 
-RUN yarn install
+RUN yarn
 
 COPY *.js ./
 
-CMD ["yarn",""]
+CMD ["yarn","start"]
